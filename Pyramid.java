@@ -27,8 +27,8 @@ public class Pyramid extends GraphicsProgram {
 	
 	public void run() {
 		/* You fill this in. */
-	int centerY = getHeight();
-	int centerX = getWidth()/2;
+	double centerY = getHeight();
+	double centerX = getWidth()/2;
 GRect brick = new GRect(centerX,centerY,Pyramid.BRICK_WIDTH,Pyramid.BRICK_HEIGHT);
 add(brick);
 }
