@@ -31,5 +31,5 @@ public class Pyramid extends GraphicsProgram {
 	double centerX = getWidth()/2;
 GRect brick = new GRect(centerX,centerY,Pyramid.BRICK_WIDTH,Pyramid.BRICK_HEIGHT);
 add(brick);
-}
+}}
 
