@@ -27,6 +27,7 @@ public class Pyramid extends GraphicsProgram {
 	
 	public void run() {
 		/* You fill this in. */
-	}
+	int centerY = getHeight();
+	int centerX = getWidth()/2;}
 }
 
