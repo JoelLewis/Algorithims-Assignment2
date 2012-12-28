@@ -12,10 +12,10 @@ import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	/** Width of each box in pixels */
-	private static final int BOX_WIDTH = 70;
+	private static final int BOX_WIDTH = 100;
 
 /** Height of Box */
-	private static final int BOX_HEIGHT = 20;
+	private static final int BOX_HEIGHT = 50;
 
 /** Distance Between Boxes */
 	private static final int BRICKS_IN_BASE = 14;
