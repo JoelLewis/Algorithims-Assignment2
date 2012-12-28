@@ -16,18 +16,25 @@ public class Target extends GraphicsProgram {
 		double centerY = getHeight()/2.0;
 		double centerX = getWidth()/2.0;
 		
-		GOval inner = new GOval(centerX-pixelRadius(.3)/2, centerY-pixelRadius(.3)/2, pixelRadius(.3), pixelRadius(.3));
-		GOval middle = new GOval(centerX-pixelRadius(.65)/2, centerY-pixelRadius(.65)/2, pixelRadius(.65),pixelRadius(.65));
-		GOval outer = new GOval(centerX-pixelRadius(1.0)/2, centerY-pixelRadius(1.0)/2, pixelRadius(1.0),pixelRadius(1.0));
-		inner.setFillColor(Color.RED);
-		outer.setFillColor(Color.RED);
+		GOval inner = new GOval(centerX-pixelRad(.3), centerY-pixelRad(.3), pixelDiam(.3), pixelDiam(.3));
+		inner.setFilled(true);
+		inner.setColor(Color.RED);
+		GOval middle = new GOval(centerX-pixelRad(.65), centerY-pixelRad(.65), pixelDiam(.65),pixelDiam(.65));
+		GOval outer = new GOval(centerX-pixelRad(1.0), centerY-pixelRad(1.0), pixelDiam(1.0),pixelDiam(1.0));
+		outer.setFilled(true);
+		outer.setColor(Color.RED);
 		add (outer);
 		add (middle);
 		add (inner);
 	}
-	double pixelRadius(double radius) {
+	double pixelDiam(double radius) {
 		double diam=radius*2*72;
 		return diam;
+	
+	double pixelRad(double radius) {
+		radius*72;
+		return;
+		
 	}
 	
 }
