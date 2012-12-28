@@ -20,6 +20,7 @@ public class Hailstone extends ConsoleProgram {
 		x=3*x+1;
 	}
 	}
+	println("The process took "+i+ "steps to reach 1");
 	}
 }
 
