@@ -20,7 +20,7 @@ public class Target extends GraphicsProgram {
 		GOval middle = new GOval(centerX, centerY, pixelRadius(.65),pixelRadius(.65));
 		GOval outer = new GOval(centerX, centerY, pixelRadius(1.0),pixelRadius(1.0));
 		inner.setFillColor(Color.RED);
-		Outer.setFillColor(Color.RED);
+		outer.setFillColor(Color.RED);
 		add (outer);
 		add (middle);
 		add(inner);
