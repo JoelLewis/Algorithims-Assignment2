@@ -12,8 +12,8 @@ public class FindRange extends ConsoleProgram {
 	private static final int SENTINEL =0;
 	
 	public void run() {
-int smallest;
-int largest;
+int smallest = 0;
+int largest = 0;
 int i = 0;
 
 while (true){
