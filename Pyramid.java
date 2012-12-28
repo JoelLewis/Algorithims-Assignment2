@@ -27,8 +27,7 @@ public class Pyramid extends GraphicsProgram {
 	
 	public void run() {
 	double centerY = getHeight()- BRICK_HEIGHT;
-	double centerX = getWidth();
-	double startX = centerX;
+	double startX = getWidth();
 
 	for(int rowHeight = 0; rowHeight <= BRICKS_IN_BASE; rowHeight++){
 		for(int brickInRowNum = 0; brickInRowNum <= rowHeight; brickInRowNum++){
