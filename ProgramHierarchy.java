@@ -15,9 +15,9 @@ public class ProgramHierarchy extends GraphicsProgram {
 		double centerY = getHeight()/2.0;
 		double centerX = getWidth()/2.0;
 		
-		GLabel prog = new GLabel("Program", centerX+100, centerY-50);
-		GLabel graphProg = new GLabel("GraphicsProgram", centerX-50, centerY+30);
 		GLabel consoleProg = new GLabel("ConsoleProgram", centerX+100, centerY+30); 
+		GLabel prog = new GLabel("Program", consoleProg.getX()+consoleProg.getWidth()/2, centerY-50);
+		GLabel graphProg = new GLabel("GraphicsProgram", centerX-50, centerY+30);
 		GLabel dialogProg = new GLabel("DialogProgram", centerX+250, centerY+30);
 		
 		add(prog);
