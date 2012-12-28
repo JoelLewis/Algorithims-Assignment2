@@ -27,13 +27,13 @@ public class Target extends GraphicsProgram {
 		add (middle);
 		add (inner);
 	}
-	double pixelDiam(double radius) {
-		double diam=radius*2*72;
+	double pixelDiam(double rad) {
+		double diam=rad*2*72.0;
 		return diam;
 	}
-	double pixelRad(double radius) {
-		radius*72;
-		return;
+	double pixelRad(double rad) {
+		double radius=rad*72.0;
+		return radius;
 		
 	}
 	
