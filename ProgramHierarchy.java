@@ -12,8 +12,8 @@ import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	public void run() {
-		double centerY = getHeight()/2.0;
-		double centerX = getWidth()/2.0;
+		double centerY = getHeight();
+		double centerX = getWidth();
 		
 		GLabel prog = new GLabel("Program", centerX, centerY-20);
 		GLabel graphProg = new GLabel("GraphicsProgram", centerX-30, centerY+10);
