@@ -24,7 +24,7 @@ public class Target extends GraphicsProgram {
 		add (outer);
 	}
 	double pixelRadius(double radius) {
-		double diam=radius*2/72;
+		double diam=radius*2*72;
 		return diam;
 	}
 	
