@@ -13,7 +13,7 @@ public class PythagoreanTheorem extends ConsoleProgram {
 	println("Enter values to compute the Pythagorean theorem.");
 	double a = readDouble("a:");
 	double b = readDouble("b:");
-	double c = Math.sqrt(a^2+b^2);
+	double c = Math.sqrt(Math.pow(a,2.0) + Math.pow(b,2.0));
 	println("c = " + c);
 	}
 }
