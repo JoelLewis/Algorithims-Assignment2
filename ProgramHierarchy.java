@@ -35,10 +35,10 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GLabel dialogProg = new GLabel("DialogProgram", centerX+250, centerY+30);
 		*/
 		add(progBox);
+		add(prog);
 		/**add(graphBox);
 		add(consoleBox);
 		add(dialogBox);
-		add(prog);
 		add(graphProg);
 		add(consoleProg);
 		add(dialogProg);
