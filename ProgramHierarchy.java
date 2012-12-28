@@ -12,7 +12,17 @@ import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	public void run() {
-		/* You fill this in. */
-	}
-}
+		double centerY = getHeight()/2.0;
+		double centerX = getWidth()/2.0;
+		
+		GLabel prog = new GLabel("Program", centerX, centerY-20);
+		GLabel graphProg = new GLabel("GraphicsProgram", centerX-30, centerY+10);
+		GLabel consoleProg = new GLabel("ConsoleProgram", centerX, centerY+10); 
+		GLabel dialogProg = new GLabel("DialogProgram", centerX+30, centerY+10);
+		
+		add(prog);
+		add(graphProg);
+		add(consoleProg);
+		add(dialogProg);
+}}
 
