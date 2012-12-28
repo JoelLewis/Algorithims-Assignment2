@@ -31,7 +31,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		*/
 		
 		GLabel prog = new GLabel("Program", progBox.getX(), progBox.getY());
-		prog.move(prog.getWidth()/2, -prog.getAscent()/2);
+		prog.move(prog.getWidth()/2, prog.getAscent()/2);
 		
 		/**GLabel consoleProg = new GLabel("ConsoleProgram", progBox.getX(), progBox.getY()); 
 		GLabel graphProg = new GLabel("GraphicsProgram", centerX-50, centerY+30);
