@@ -10,7 +10,16 @@ import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
 	public void run() {
-		/* You fill this in */
+	int x = readInt("Enter a number: ");
+	for(int i = 0;x < 1;i++){
+	if(x%2 == 0){
+		println(x+" is even so I take half: " + x/2);
+		x=x/2;
+	} else{
+		println(x+" is odd so I make 3n + 1: "+(3*x+1));
+		x=3*x+1;
+	}
+	}
 	}
 }
 
