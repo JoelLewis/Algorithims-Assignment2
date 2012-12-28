@@ -30,7 +30,8 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GRext dialogBox = new GRect(centerX, centerY, BOX_WIDTH, BOX_HEIGHT);
 		*/
 		
-		GLabel prog = new GLabel("Program", progBox.getX(), progBox.getY()+BOX_HEIGHT);
+		GLabel prog = new GLabel("Program", progBox.getX(), progBox.getY());
+		prog.move(prog.getWidth(), prog.getAscent());
 		
 		/**GLabel consoleProg = new GLabel("ConsoleProgram", progBox.getX(), progBox.getY()); 
 		GLabel graphProg = new GLabel("GraphicsProgram", centerX-50, centerY+30);
