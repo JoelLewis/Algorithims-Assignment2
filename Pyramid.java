@@ -32,7 +32,7 @@ public class Pyramid extends GraphicsProgram {
 
 	for(int rowHeight = 0; rowHeight <= BRICKS_IN_BASE; rowHeight++){
 		for(int brickInRowNum = 0; brickInRowNum <= rowHeight; brickInRowNum++){
-			GRect brick = new GRect(startX + (brickInRowNum*BRICK_WIDTH) - (rowHeight*BRICK_WIDTH/2),
+			GRect brick = new GRect(startX - (brickInRowNum*BRICK_WIDTH) - (rowHeight*BRICK_WIDTH/2),
 					centerY + (rowHeight*BRICK_HEIGHT),Pyramid.BRICK_WIDTH,Pyramid.BRICK_HEIGHT);
 			add(brick);	
 		}		
